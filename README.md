@@ -10,4 +10,4 @@ This library does use the `dogstatsd` crate under the hood, but I could imagine 
 
 ## Wishlist
 
-I'd like it if Datadog made distributions something we could aggregate client-side.
+I'd like it if Datadog made distributions something we could aggregate client-side. [Daddy needs his count-min sketch.](https://dsf.berkeley.edu/cs286/papers/countmin-latin2004.pdf)
