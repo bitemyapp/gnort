@@ -1,7 +1,7 @@
 [package]
 name = "gnort"
 authors = ["Chris Allen <cma@bitemyapp.com>"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 description = "Datadog statsd client library that provides efficient in-process metrics aggregation"
