@@ -1,6 +1,6 @@
 # gnort
 
-![alien dog named G-n-o-r-t looking nonplussed](gnort.webp "Gnort")
+<img src="gnort.webp" alt="alien dog named G-n-o-r-t looking nonplussed" width="200"/>
 
 `gnort` is a Datadog client library that provides efficient in-process metrics aggregation. I wrote this because I wanted to be able to do a mixture of aggregated and ad-hoc metrics with minimal boilerplate. Accordingly, a lot of the value of this library is the codegen via macros, registry, and aggregation windows.
 
