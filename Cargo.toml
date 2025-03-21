@@ -1,0 +1,20 @@
+[package]
+name = "gnort"
+authors = ["Chris Allen <cma@bitemyapp.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dashmap = "6.1"
+derive_more = { version = "2.0", features = ["full"] }
+dogstatsd = { version = "0.12" }
+governor = "0.8"
+maplit = "1.0"
+nonzero_ext = "0.3"
+once_cell = "1.18"
+thiserror = "2.0"
+tracing = "0.1"
+
+[dev-dependencies]
+approx = "0.5.1"
+tokio = { version = "^1", features = ["full"] }

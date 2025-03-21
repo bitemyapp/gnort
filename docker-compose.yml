@@ -1,0 +1,12 @@
+services:
+  datadog:
+    image: datadog/agent:latest
+    environment:
+      - DD_API_KEY=dummyapikey1234567890
+      - DD_LOGS_ENABLED=true
+      - DD_LOGS_CONFIG_CONTAINER_COLLECT_ALL=true
+    ports:
+      - "8125:8125/udp" # DogStatsD port
+      - "8126:8126/tcp" # APM and profiling port
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
