@@ -1,6 +1,7 @@
 # gnort
 
 - [crates.io](https://crates.io/crates/gnort)
+- [GitHub](https://github.com/bitemyapp/gnort)
 
 <img src="gnort.webp" alt="alien dog named G-n-o-r-t looking nonplussed" width="200"/>
 
